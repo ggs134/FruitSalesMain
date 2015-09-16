@@ -27,7 +27,7 @@ class FruitBuyer:
         print "사과 갯수 : %d"%(self.numOfApple)
 
 
-if __name__=="__main__":
+def main():
     seller1=FruitSeller(0,30,1500)
     seller2=FruitSeller(0,20,1000)
 
@@ -43,3 +43,6 @@ if __name__=="__main__":
 
     print "status of buyer"
     buyer.showBuyResult()
+
+if __name__=='__main__':
+    main()
